@@ -4,7 +4,8 @@ python-dotenv
 djangorestframework
 pytest
 pytest-django
-
+black
+flake8
 
 # Commands
 django-admin startproject drfcommerce
@@ -25,6 +26,9 @@ pip install python-dotenv
 pip install djangorestframework
 pip install pytest
 pip install pytest-django
+pip install black
+pip install flake8
+
 
 ## Pytest
 pytest -h
